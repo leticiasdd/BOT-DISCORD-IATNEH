@@ -9,9 +9,9 @@ const client = new DiscordJS.Client({
     ]
 })
 client.on('messageCreate', (message) =>{
-    if (message.content == 'Kitute') {
+    if (message.content == 'Oi') {
         message.reply({
-            content: 'da o cu',
+            content: 'Olá',
         })
     }
 
